@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rrchd$uj_-vo==gw!o^@^8(a*wvvp!@nko6!xav7(4!g*mrnl*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['real-estate-lbce.onrender.com']
+ALLOWED_HOSTS = ['real-estate-lbce.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -165,7 +165,7 @@ USE_TZ = True
 import os
 
 STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / "staticfiles"
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 MEDIA_URL = "/media/"
