@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rrchd$uj_-vo==gw!o^@^8(a*wvvp!@nko6!xav7(4!g*mrnl*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['real-estate-lbce.onrender.com']
 
 
 # Application definition
