@@ -1,6 +1,11 @@
 from django.contrib import admin
 from .models import Customer, RentProperty, BuyProperty
 
+admin.site.index_template = "admin.html"
+
+admin.site.site_header = "🏠 DwellPoint Admin"
+admin.site.site_title = "Welcome to DwellPoint Portal"
+admin.site.index_title = "DwellPoint Portal"
 
 @admin.register(Customer)
 class CustomerAdmin(admin.ModelAdmin):

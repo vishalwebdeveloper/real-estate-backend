@@ -1,0 +1,53 @@
+/* REMOVE LEFT SIDEBAR COMPLETELY */
+#nav-sidebar, #nav-sidebar * {
+    display: none !important;
+}
+
+/* REMOVE RECENT ACTIONS */
+#recent-actions-module,
+.module.recent-actions {
+    display: none !important;
+}
+
+/* FULL SCREEN FIX */
+#main {
+    margin-left: 0 !important;
+    width: 100% !important;
+}
+
+#content {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    padding: 20px !important;
+}
+
+/* CUSTOM DASHBOARD LAYOUT */
+.dashboard-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.dashboard-card {
+    width: 100%;
+    max-width: 900px;
+    background: #fa9494 !important;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Map styling */
+.map-frame {
+    border: 0;
+    border-radius: 12px;
+}
+
+/* Description text */
+.desc {
+    color: #555;
+    margin-bottom: 20px;
+}
